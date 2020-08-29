@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2601760721068297906}
   m_Layer: 8
-  m_Name: P_Branch
+  m_Name: P_Galho_Real
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3409399997083898888}
-  m_LocalRotation: {x: 0.09390876, y: -0.5054444, z: -0.6523878, w: 0.55686384}
+  m_LocalRotation: {x: 0.09390685, y: -0.50544304, z: -0.65238744, w: 0.55686575}
   m_LocalPosition: {x: 4.085, y: 0.10018844, z: -3.138}
   m_LocalScale: {x: 0.054237388, y: 0.061781816, z: 0.054237396}
   m_Children:
