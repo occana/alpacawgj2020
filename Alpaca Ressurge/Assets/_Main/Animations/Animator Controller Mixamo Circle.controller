@@ -82,7 +82,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Animator Controller Anim_001
+  m_Name: Animator Controller Mixamo Circle
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Andar
