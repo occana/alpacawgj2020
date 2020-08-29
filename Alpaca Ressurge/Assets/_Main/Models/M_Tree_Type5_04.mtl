@@ -1,0 +1,8 @@
+newmtl MT_Veg_Verde
+Kd 0.3172837 0.4339623 0.3831261
+d 1
+
+newmtl MT_Tronco
+Kd 0.4339623 0.3666001 0.3090958
+d 1
+

@@ -3,7 +3,22 @@ guid: 6aba58c34cce58f4ba792d08401e72f0
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAULE
+    second: {fileID: 2100000, guid: fac38d2ced4fd5945a409ee8553961b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: COPA 1
+    second: {fileID: 2100000, guid: b33d6ca62cbd56d43ab60edfd9850200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: COPA.001
+    second: {fileID: 2100000, guid: 471ce839fc651314b9ee0164642cef33, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

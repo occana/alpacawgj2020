@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: MT_NaveLuz
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -88,13 +88,13 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 0
-    - _Glossiness: 0.108
+    - _Glossiness: 0.062
     - _GlossyReflections: 1
     - _HighlightCellOffset: -0.95
     - _HighlightCellSharpness: 0.01
     - _IndirectDiffuseContribution: 1
     - _IndirectSpecularContribution: 1
-    - _Metallic: 0.167
+    - _Metallic: 0
     - _Mode: 0
     - _NormalScale: 1
     - _OcclusionStrength: 1
@@ -117,8 +117,8 @@ Material:
     m_Colors:
     - _ASEOutlineColor: {r: 0.4056604, g: 0.3539961, b: 0.3539961, a: 0}
     - _BaseTint: {r: 1, g: 1, b: 1, a: 0}
-    - _Color: {r: 0.33868814, g: 0.5566038, b: 0.36901078, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.8911301, g: 0.85898006, b: 0.9150943, a: 1}
+    - _EmissionColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
     - _HighlightTint: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineTint: {r: 0.5294118, g: 0.5294118, b: 0.5294118, a: 0}
     - _RimColor: {r: 26.39303, g: 23.25109, b: 28.167034, a: 0}

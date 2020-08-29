@@ -106,13 +106,13 @@ Material:
     - _DstBlend: 0
     - _Gloss: 13
     - _GlossMapScale: 0
-    - _Glossiness: 0.108
+    - _Glossiness: 0.062
     - _GlossyReflections: 1
     - _HighlightCellOffset: -0.93
     - _HighlightCellSharpness: 0.25
     - _IndirectDiffuseContribution: 0.4
     - _IndirectSpecularContribution: 0.966
-    - _Metallic: 0.167
+    - _Metallic: 0.065
     - _Mode: 0
     - _NormalScale: 1
     - _OcclusionStrength: 1

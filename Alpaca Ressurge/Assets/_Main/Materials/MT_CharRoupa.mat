@@ -89,13 +89,13 @@ Material:
     - _DstBlend: 0
     - _Gloss: 0
     - _GlossMapScale: 0
-    - _Glossiness: 0.108
+    - _Glossiness: 0.062
     - _GlossyReflections: 1
     - _HighlightCellOffset: -0.59
     - _HighlightCellSharpness: 0.609
     - _IndirectDiffuseContribution: 0.5
     - _IndirectSpecularContribution: 0.687
-    - _Metallic: 0.167
+    - _Metallic: 0.065
     - _Mode: 0
     - _NormalScale: 0
     - _OcclusionStrength: 1
@@ -118,7 +118,7 @@ Material:
     - __dirty: 1
     m_Colors:
     - _BaseTint: {r: 0.90901273, g: 0.9024564, b: 0.9811321, a: 0}
-    - _Color: {r: 0.33868814, g: 0.5566038, b: 0.36901078, a: 1}
+    - _Color: {r: 0.5513528, g: 0.6266928, b: 0.6603774, a: 1}
     - _ColorBlend: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveBlend: {r: 1, g: 1, b: 1, a: 1}
