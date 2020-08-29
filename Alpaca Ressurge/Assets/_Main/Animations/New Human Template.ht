@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Human Template
+  m_BoneTemplate:
+    Chest: _C_spine_JNT_03
+    Head: m_head_JNT_01
+    Hips: C_spine_JNT_01
+    LeftEye: l_eye_JNT
+    LeftFoot: L_legAJD_JNT
+    LeftHand: L_forearm_ResultJnt_01
+    LeftLowerArm: L_elbow_ResultJnt_02
+    LeftLowerLeg: L_legAJB_JNT
+    LeftShoulder: L_shoulder_ResultJnt_01
+    LeftToes: L_legAJEnd_JNT
+    LeftUpperArm: L_bicep_ResultJnt_01
+    LeftUpperLeg: L_pelvis_JNT_01
+    Neck: _C_spine_JNT_End
+    RightEye: r_eye_JNT
+    RightFoot: R_legAJD_JNT
+    RightHand: R_forearm_ResultJnt_01
+    RightLowerArm: R_elbow_ResultJnt_02
+    RightLowerLeg: R_legAJB_JNT
+    RightShoulder: R_shoulder_ResultJnt_01
+    RightToes: R_legAJEnd_JNT
+    RightUpperArm: R_bicep_ResultJnt_01
+    RightUpperLeg: R_pelvis_JNT_01
+    Spine: _C_spine_JNT_02
+    UpperChest: _C_spine_JNT_04
