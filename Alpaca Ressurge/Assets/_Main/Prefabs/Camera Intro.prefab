@@ -147,8 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59700678e0092463cb106a3995cd22a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scanlineIntensity: 100
-  scanlineWidth: 1
+  scanlineIntensity: 15
+  scanlineWidth: 5
 --- !u!114 &5847557602044330875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   intensity: 3
-  shift: 0.5
+  shift: 0.25
 --- !u!1001 &5847557602463733923
 PrefabInstance:
   m_ObjectHideFlags: 0
