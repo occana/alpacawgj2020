@@ -3,7 +3,17 @@ guid: d5dc2ba1f827e8c43901d23396094125
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lata
+    second: {fileID: 2100000, guid: 36609227bf103c341b35bfaba4a800ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: corpo
+    second: {fileID: 2100000, guid: 78d7ecb9277bf6f489a5079e9963d3f8, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

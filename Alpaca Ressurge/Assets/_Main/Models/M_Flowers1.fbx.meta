@@ -3,7 +3,22 @@ guid: b3fe029690453474b8aec88eb64b5f64
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FOLHA
+    second: {fileID: 2100000, guid: 471ce839fc651314b9ee0164642cef33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FOLHAS
+    second: {fileID: 2100000, guid: b33d6ca62cbd56d43ab60edfd9850200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PETALA
+    second: {fileID: 2100000, guid: 78d7ecb9277bf6f489a5079e9963d3f8, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
