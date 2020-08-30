@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MT_Azul
+  m_Name: MT_Garrafa
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -107,7 +107,7 @@ Material:
     - __dirty: 1
     m_Colors:
     - _BaseTint: {r: 0.6784314, g: 0.7372549, b: 0.7372549, a: 1}
-    - _Color: {r: 0.20060521, g: 0.6078344, b: 0.8679245, a: 1}
+    - _Color: {r: 0.3333037, g: 0.5341182, b: 0.6603774, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HighlightTint: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineTint: {r: 0.32600567, g: 0.5686075, b: 0.6981132, a: 1}

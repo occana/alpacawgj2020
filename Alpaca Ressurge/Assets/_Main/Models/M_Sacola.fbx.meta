@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 290d5ca38464be142b56d87534b0b39e
+guid: ad08784ba659bbe4ba716afd665488f7
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
@@ -7,13 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Barrel
-    second: {fileID: 2100000, guid: c59b8dd50b41ed643933a03b9c80e277, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: DETALS
-    second: {fileID: 2100000, guid: f767075003baed048886a243c083362a, type: 2}
+      name: No Name
+    second: {fileID: 2100000, guid: 36609227bf103c341b35bfaba4a800ee, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

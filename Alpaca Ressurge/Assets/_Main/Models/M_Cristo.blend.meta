@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 290d5ca38464be142b56d87534b0b39e
+guid: 3b9fef52b3421af4f839fbe06dd38d4c
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
@@ -7,13 +7,38 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Barrel
-    second: {fileID: 2100000, guid: c59b8dd50b41ed643933a03b9c80e277, type: 2}
+      name: No Name
+    second: {fileID: 2100000, guid: e03c83d23d65f8b4cbdfc681f5fb0128, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: DETALS
-    second: {fileID: 2100000, guid: f767075003baed048886a243c083362a, type: 2}
+      name: back_texture
+    second: {fileID: 2100000, guid: 730be4a6c639b494aaee309ef2db5434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face
+    second: {fileID: 2100000, guid: 730be4a6c639b494aaee309ef2db5434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: front_texture
+    second: {fileID: 2100000, guid: 730be4a6c639b494aaee309ef2db5434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_rear
+    second: {fileID: 2100000, guid: 730be4a6c639b494aaee309ef2db5434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: head_right_texture
+    second: {fileID: 2100000, guid: 730be4a6c639b494aaee309ef2db5434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material
+    second: {fileID: 2100000, guid: 730be4a6c639b494aaee309ef2db5434, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
