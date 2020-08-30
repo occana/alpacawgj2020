@@ -11,7 +11,7 @@ public class Cena4_Indoembora : MonoBehaviour
 
     void Start()
     {
-        sceneManager.GetComponent<SceneManager>().NextScene();
+       // sceneManager.GetComponent<SceneManager>().NextScene();
     }
 
     // Update is called once per frame

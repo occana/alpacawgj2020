@@ -7,10 +7,13 @@ public class SceneManager : MonoBehaviour
 {  
     public GameObject[] cenas;
     public int cenaAtual = 0;
+    
 
-    public void NextScene () 
+    public void NextScene (int cena) 
     {
-        cenaAtual++;
+        
+        Debug.Log("TesteNextScene");
+        cenaAtual = cena;
         for (int i = 0; i < cenas.Length; i++)
         {
             cenas[i].SetActive(i == cenaAtual);

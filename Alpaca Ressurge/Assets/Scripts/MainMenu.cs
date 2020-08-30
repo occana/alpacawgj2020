@@ -12,28 +12,26 @@ public class MainMenu : MonoBehaviour
    public GameObject cena3;
    public GameObject cena4;
    public GameObject alpieIntro;
-   public GameObject alpieIdle;
    public GameObject sceneManager;
    public GameObject[] cenas;
    public int cenaAtual = 0;
+   public float delay;
    
-         public void NextScene () 
-         {
-        cenaAtual++;
-            for (int i = 0; i < cenas.Length; i++)
-            {
-               cenas[i].SetActive(i == cenaAtual);
-            }
-   }
+        
 
    public void Start()
    {
        myCanvas = myCanvas.GetComponent<Canvas>();
        myCanvas.gameObject.SetActive(true);
+       alpieIntro.gameObject.SetActive(false);
+      
     }
        public void PlayGame()
    {
       myCanvas.gameObject.SetActive(false);
-      sceneManager.GetComponent<SceneManager>().NextScene();
+      alpieIntro.gameObject.SetActive(true);
+     // sceneManager.GetComponent<SceneManager>().NextScene();
+      cena1.SetActive(true);
+   
    }
 }

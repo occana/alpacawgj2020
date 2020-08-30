@@ -293,10 +293,14 @@ MonoBehaviour:
   cena3: {fileID: 642849656}
   cena4: {fileID: 1494871333}
   alpieIntro: {fileID: 493715628}
-  alpieIdle: {fileID: 2083045460}
   sceneManager: {fileID: 825420118}
-  cenas: []
+  cenas:
+  - {fileID: 1892004326}
+  - {fileID: 798117725}
+  - {fileID: 642849656}
+  - {fileID: 1494871333}
   cenaAtual: 0
+  delay: 0
 --- !u!114 &348415078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,28 +453,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5826648465967758914, guid: b3ae98a7df9ea3d458a6d0fb8ebc6c0a, type: 3}
   m_PrefabInstance: {fileID: 29799941108293664}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &493715629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 493715628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0bf50783b3511246b7d040c47955797, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myCanvas: {fileID: 348415080}
-  cena1: {fileID: 1892004326}
-  cena2: {fileID: 0}
-  cena3: {fileID: 0}
-  cena4: {fileID: 0}
-  alpieIntro: {fileID: 0}
-  alpieIdle: {fileID: 0}
-  sceneManager: {fileID: 0}
-  cenas: []
-  cenaAtual: 0
 --- !u!1 &642849656
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,14 +463,13 @@ GameObject:
   m_Component:
   - component: {fileID: 642849657}
   - component: {fileID: 642849658}
-  - component: {fileID: 642849659}
   m_Layer: 0
   m_Name: Cena3_Quest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &642849657
 Transform:
   m_ObjectHideFlags: 0
@@ -521,32 +502,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneManager: {fileID: 825420118}
---- !u!114 &642849659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 642849656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0bf50783b3511246b7d040c47955797, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myCanvas: {fileID: 348415080}
-  cena1: {fileID: 1892004326}
-  cena2: {fileID: 798117725}
-  cena3: {fileID: 642849656}
-  cena4: {fileID: 1494871333}
-  alpieIntro: {fileID: 493715628}
-  alpieIdle: {fileID: 2083045460}
-  sceneManager: {fileID: 825420118}
-  cenas:
-  - {fileID: 1892004326}
-  - {fileID: 798117725}
-  - {fileID: 642849656}
-  - {fileID: 1494871333}
-  cenaAtual: 3
+  delay: 5
+  alpieIdle: {fileID: 0}
 --- !u!1 &798117725
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,14 +514,13 @@ GameObject:
   m_Component:
   - component: {fileID: 798117726}
   - component: {fileID: 798117727}
-  - component: {fileID: 798117728}
   m_Layer: 0
   m_Name: Cena2_BatePapo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &798117726
 Transform:
   m_ObjectHideFlags: 0
@@ -593,32 +549,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneManager: {fileID: 825420118}
---- !u!114 &798117728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 798117725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0bf50783b3511246b7d040c47955797, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myCanvas: {fileID: 348415080}
-  cena1: {fileID: 1892004326}
-  cena2: {fileID: 798117725}
-  cena3: {fileID: 642849656}
-  cena4: {fileID: 1494871333}
-  alpieIntro: {fileID: 493715628}
   alpieIdle: {fileID: 2083045460}
-  sceneManager: {fileID: 825420118}
-  cenas:
-  - {fileID: 1892004326}
-  - {fileID: 798117725}
-  - {fileID: 642849656}
-  - {fileID: 1494871333}
-  cenaAtual: 2
+  delay: 5
 --- !u!4 &817092167 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4838067341564878, guid: 39de80c7e7a1a2942820576875608e5d, type: 3}
@@ -687,7 +619,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 825420118}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a0bf50783b3511246b7d040c47955797, type: 3}
   m_Name: 
@@ -698,7 +630,6 @@ MonoBehaviour:
   cena3: {fileID: 642849656}
   cena4: {fileID: 1494871333}
   alpieIntro: {fileID: 493715628}
-  alpieIdle: {fileID: 2083045460}
   sceneManager: {fileID: 825420118}
   cenas:
   - {fileID: 1892004326}
@@ -706,6 +637,7 @@ MonoBehaviour:
   - {fileID: 642849656}
   - {fileID: 1494871333}
   cenaAtual: -1
+  delay: 0
 --- !u!1 &832257742
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,7 +801,7 @@ Transform:
   m_Children:
   - {fileID: 942445481}
   m_Father: {fileID: 1250239716}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &942445479
 GameObject:
@@ -1037,7 +969,6 @@ Transform:
   m_LocalPosition: {x: 0, y: -0.016188443, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1488164353}
   - {fileID: 1438293018}
   - {fileID: 867651575}
   - {fileID: 958383986}
@@ -1140,70 +1071,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1250239716}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1488164352
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1250239716}
-    m_Modifications:
-    - target: {fileID: 8331809159192320050, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-      propertyPath: m_Name
-      value: P_Spaceship
-      objectReference: {fileID: 0}
-    - target: {fileID: 8331809159192675346, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 8331809159192675346, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.51618844
-      objectReference: {fileID: 0}
-    - target: {fileID: 8331809159192675346, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8331809159192675346, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.13059671
-      objectReference: {fileID: 0}
-    - target: {fileID: 8331809159192675346, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.022473142
-      objectReference: {fileID: 0}
-    - target: {fileID: 8331809159192675346, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.13058703
-      objectReference: {fileID: 0}
-    - target: {fileID: 8331809159192675346, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.9825409
-      objectReference: {fileID: 0}
-    - target: {fileID: 8331809159192675346, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8331809159192675346, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -14.523
-      objectReference: {fileID: 0}
-    - target: {fileID: 8331809159192675346, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -4.638
-      objectReference: {fileID: 0}
-    - target: {fileID: 8331809159192675346, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 15.733
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
---- !u!4 &1488164353 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8331809159192675346, guid: 16e44b23d57fcb04a85aea8cbbff90bc, type: 3}
-  m_PrefabInstance: {fileID: 1488164352}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1494871333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,14 +1083,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1494871334}
   - component: {fileID: 1494871335}
-  - component: {fileID: 1494871336}
   m_Layer: 0
   m_Name: Cena4_Indoembora
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1494871334
 Transform:
   m_ObjectHideFlags: 0
@@ -1250,32 +1118,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneManager: {fileID: 825420118}
---- !u!114 &1494871336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494871333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0bf50783b3511246b7d040c47955797, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myCanvas: {fileID: 348415080}
-  cena1: {fileID: 1892004326}
-  cena2: {fileID: 798117725}
-  cena3: {fileID: 642849656}
-  cena4: {fileID: 1494871333}
-  alpieIntro: {fileID: 493715628}
-  alpieIdle: {fileID: 2083045460}
-  sceneManager: {fileID: 825420118}
-  cenas:
-  - {fileID: 1892004326}
-  - {fileID: 798117725}
-  - {fileID: 642849656}
-  - {fileID: 1494871333}
-  cenaAtual: 4
 --- !u!1 &1497916925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1411,6 +1253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera Final
       objectReference: {fileID: 0}
+    - target: {fileID: 4652895797460876136, guid: 55aa36d8379dec2428c44b0031671e86, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55aa36d8379dec2428c44b0031671e86, type: 3}
 --- !u!1 &1892004326
@@ -1422,14 +1268,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1892004327}
-  - component: {fileID: 1892004328}
+  - component: {fileID: 1892004329}
   m_Layer: 0
   m_Name: Cena1_Intro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1892004327
 Transform:
   m_ObjectHideFlags: 0
@@ -1445,7 +1291,7 @@ Transform:
   m_Father: {fileID: 825420119}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1892004328
+--- !u!114 &1892004329
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1454,23 +1300,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1892004326}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0bf50783b3511246b7d040c47955797, type: 3}
+  m_Script: {fileID: 11500000, guid: 0205093c12fac2546a3a585d75091a45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myCanvas: {fileID: 348415080}
-  cena1: {fileID: 1892004326}
-  cena2: {fileID: 798117725}
-  cena3: {fileID: 642849656}
-  cena4: {fileID: 1494871333}
-  alpieIntro: {fileID: 493715628}
-  alpieIdle: {fileID: 2083045460}
   sceneManager: {fileID: 825420118}
-  cenas:
-  - {fileID: 1892004326}
-  - {fileID: 798117725}
-  - {fileID: 642849656}
-  - {fileID: 1494871333}
-  cenaAtual: 1
+  delay: 15
 --- !u!1 &2083045460 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1505631269600654900, guid: e15ff3aafc4b86142a37a9658e0ef0e4, type: 3}
@@ -1518,7 +1352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4835627449435773503, guid: b3ae98a7df9ea3d458a6d0fb8ebc6c0a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4835627449435773503, guid: b3ae98a7df9ea3d458a6d0fb8ebc6c0a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1593,7 +1427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 161265476295972163, guid: 587c67584accff74baf7f32019ecab19, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 161265476295972163, guid: 587c67584accff74baf7f32019ecab19, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1794,7 +1628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 585657917635023749, guid: 8d1d01005edfda74ea78237cc2e5ce55, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 585657917635023749, guid: 8d1d01005edfda74ea78237cc2e5ce55, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1864,6 +1698,10 @@ PrefabInstance:
     - target: {fileID: 5419112872547641254, guid: a19f4c1bdf28bf9489f12442a0a019ed, type: 3}
       propertyPath: m_Name
       value: Alpie_idle_indoembora
+      objectReference: {fileID: 0}
+    - target: {fileID: 5419112872547641254, guid: a19f4c1bdf28bf9489f12442a0a019ed, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a19f4c1bdf28bf9489f12442a0a019ed, type: 3}
@@ -2351,7 +2189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1024041211023213568, guid: b6e8dd8ba92a2ed4e83fbc6ed85488f1, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1024041211023213568, guid: b6e8dd8ba92a2ed4e83fbc6ed85488f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2901,7 +2739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7936328645465576452, guid: 158c80a73cd8ebc4fb94f662cc8d8768, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 158c80a73cd8ebc4fb94f662cc8d8768, type: 3}
@@ -2915,6 +2753,10 @@ PrefabInstance:
     - target: {fileID: 550303286065447399, guid: dcd84f29471206c4bb1e1bff73f81b64, type: 3}
       propertyPath: m_Name
       value: Alpie_idle_opcaoerrada
+      objectReference: {fileID: 0}
+    - target: {fileID: 550303286065447399, guid: dcd84f29471206c4bb1e1bff73f81b64, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8810611004566476179, guid: dcd84f29471206c4bb1e1bff73f81b64, type: 3}
       propertyPath: m_LocalPosition.x
