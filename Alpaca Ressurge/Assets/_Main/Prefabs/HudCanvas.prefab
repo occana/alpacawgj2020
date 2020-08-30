@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 6895920088324236525}
   - component: {fileID: 6895920088324236522}
   m_Layer: 5
-  m_Name: Hud Exemplo
+  m_Name: Hud Place Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

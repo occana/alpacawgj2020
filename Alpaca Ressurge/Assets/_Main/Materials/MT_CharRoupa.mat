@@ -89,7 +89,7 @@ Material:
     - _DstBlend: 0
     - _Gloss: 0
     - _GlossMapScale: 0
-    - _Glossiness: 0.073
+    - _Glossiness: 0.003
     - _GlossyReflections: 1
     - _HighlightCellOffset: -0.59
     - _HighlightCellSharpness: 0.609
